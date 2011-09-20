@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF55D741428E7B100C4D9A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF55D731428E7B100C4D9A8 /* UIKit.framework */; };
+		EEF55D761428E7B100C4D9A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF55D751428E7B100C4D9A8 /* Foundation.framework */; };
+		EEF55D781428E7B100C4D9A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF55D771428E7B100C4D9A8 /* CoreGraphics.framework */; };
+		EEF55D7E1428E7B100C4D9A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF55D7C1428E7B100C4D9A8 /* InfoPlist.strings */; };
+		EEF55D811428E7B100C4D9A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF55D801428E7B100C4D9A8 /* main.m */; };
+		EEF55D841428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF55D831428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate.m */; };
+		EEF55D881428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF55D871428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate_iPhone.m */; };
+		EEF55D8B1428E7B200C4D9A8 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF55D891428E7B200C4D9A8 /* MainWindow_iPhone.xib */; };
+		EEF55D8F1428E7B200C4D9A8 /* AUIAnimatedTextAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF55D8E1428E7B200C4D9A8 /* AUIAnimatedTextAppDelegate_iPad.m */; };
+		EEF55D921428E7B200C4D9A8 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF55D901428E7B200C4D9A8 /* MainWindow_iPad.xib */; };
+		EEF55D991428E7B200C4D9A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF55D731428E7B100C4D9A8 /* UIKit.framework */; };
+		EEF55D9A1428E7B200C4D9A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF55D751428E7B100C4D9A8 /* Foundation.framework */; };
+		EEF55D9B1428E7B200C4D9A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF55D771428E7B100C4D9A8 /* CoreGraphics.framework */; };
+		EEF55DA31428E7B200C4D9A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF55DA11428E7B200C4D9A8 /* InfoPlist.strings */; };
+		EEF55DA61428E7B200C4D9A8 /* AUIAnimatedTextTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EEF55DA51428E7B200C4D9A8 /* AUIAnimatedTextTests.h */; };
+		EEF55DA81428E7B200C4D9A8 /* AUIAnimatedTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF55DA71428E7B200C4D9A8 /* AUIAnimatedTextTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEF55D9C1428E7B200C4D9A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF55D661428E7B100C4D9A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF55D6E1428E7B100C4D9A8;
+			remoteInfo = AUIAnimatedText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEF55D6F1428E7B100C4D9A8 /* AUIAnimatedText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUIAnimatedText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF55D731428E7B100C4D9A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEF55D751428E7B100C4D9A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEF55D771428E7B100C4D9A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEF55D7B1428E7B100C4D9A8 /* AUIAnimatedText-Info.plist */ = {isa = PBXFileReference; path = "AUIAnimatedText-Info.plist"; sourceTree = "<group>"; };
+		EEF55D7D1428E7B100C4D9A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEF55D7F1428E7B100C4D9A8 /* AUIAnimatedText-Prefix.pch */ = {isa = PBXFileReference; path = "AUIAnimatedText-Prefix.pch"; sourceTree = "<group>"; };
+		EEF55D801428E7B100C4D9A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF55D821428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate.h */ = {isa = PBXFileReference; path = AUIAnimatedTextAppDelegate.h; sourceTree = "<group>"; };
+		EEF55D831428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUIAnimatedTextAppDelegate.m; sourceTree = "<group>"; };
+		EEF55D861428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = AUIAnimatedTextAppDelegate_iPhone.h; path = iPhone/AUIAnimatedTextAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		EEF55D871428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AUIAnimatedTextAppDelegate_iPhone.m; path = iPhone/AUIAnimatedTextAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		EEF55D8A1428E7B200C4D9A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		EEF55D8D1428E7B200C4D9A8 /* AUIAnimatedTextAppDelegate_iPad.h */ = {isa = PBXFileReference; name = AUIAnimatedTextAppDelegate_iPad.h; path = iPad/AUIAnimatedTextAppDelegate_iPad.h; sourceTree = "<group>"; };
+		EEF55D8E1428E7B200C4D9A8 /* AUIAnimatedTextAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AUIAnimatedTextAppDelegate_iPad.m; path = iPad/AUIAnimatedTextAppDelegate_iPad.m; sourceTree = "<group>"; };
+		EEF55D911428E7B200C4D9A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		EEF55D981428E7B200C4D9A8 /* AUIAnimatedTextTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUIAnimatedTextTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF55DA01428E7B200C4D9A8 /* AUIAnimatedTextTests-Info.plist */ = {isa = PBXFileReference; path = "AUIAnimatedTextTests-Info.plist"; sourceTree = "<group>"; };
+		EEF55DA21428E7B200C4D9A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEF55DA41428E7B200C4D9A8 /* AUIAnimatedTextTests-Prefix.pch */ = {isa = PBXFileReference; path = "AUIAnimatedTextTests-Prefix.pch"; sourceTree = "<group>"; };
+		EEF55DA51428E7B200C4D9A8 /* AUIAnimatedTextTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUIAnimatedTextTests.h; sourceTree = "<group>"; };
+		EEF55DA71428E7B200C4D9A8 /* AUIAnimatedTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUIAnimatedTextTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF55D6C1428E7B100C4D9A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF55D741428E7B100C4D9A8 /* UIKit.framework in Frameworks */,
+				EEF55D761428E7B100C4D9A8 /* Foundation.framework in Frameworks */,
+				EEF55D781428E7B100C4D9A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF55D941428E7B200C4D9A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF55D991428E7B200C4D9A8 /* UIKit.framework in Frameworks */,
+				EEF55D9A1428E7B200C4D9A8 /* Foundation.framework in Frameworks */,
+				EEF55D9B1428E7B200C4D9A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF55D641428E7B100C4D9A8 = {
+			isa = PBXGroup;
+			children = (
+				EEF55D791428E7B100C4D9A8 /* AUIAnimatedText */,
+				EEF55D9E1428E7B200C4D9A8 /* AUIAnimatedTextTests */,
+				EEF55D721428E7B100C4D9A8 /* Frameworks */,
+				EEF55D701428E7B100C4D9A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF55D701428E7B100C4D9A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55D6F1428E7B100C4D9A8 /* AUIAnimatedText.app */,
+				EEF55D981428E7B200C4D9A8 /* AUIAnimatedTextTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF55D721428E7B100C4D9A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55D731428E7B100C4D9A8 /* UIKit.framework */,
+				EEF55D751428E7B100C4D9A8 /* Foundation.framework */,
+				EEF55D771428E7B100C4D9A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF55D791428E7B100C4D9A8 /* AUIAnimatedText */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55D821428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate.h */,
+				EEF55D831428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate.m */,
+				EEF55D851428E7B100C4D9A8 /* iPhone */,
+				EEF55D8C1428E7B200C4D9A8 /* iPad */,
+				EEF55D7A1428E7B100C4D9A8 /* Supporting Files */,
+			);
+			path = AUIAnimatedText;
+			sourceTree = "<group>";
+		};
+		EEF55D7A1428E7B100C4D9A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55D7B1428E7B100C4D9A8 /* AUIAnimatedText-Info.plist */,
+				EEF55D7C1428E7B100C4D9A8 /* InfoPlist.strings */,
+				EEF55D7F1428E7B100C4D9A8 /* AUIAnimatedText-Prefix.pch */,
+				EEF55D801428E7B100C4D9A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF55D851428E7B100C4D9A8 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55D861428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate_iPhone.h */,
+				EEF55D871428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate_iPhone.m */,
+				EEF55D891428E7B200C4D9A8 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		EEF55D8C1428E7B200C4D9A8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55D8D1428E7B200C4D9A8 /* AUIAnimatedTextAppDelegate_iPad.h */,
+				EEF55D8E1428E7B200C4D9A8 /* AUIAnimatedTextAppDelegate_iPad.m */,
+				EEF55D901428E7B200C4D9A8 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		EEF55D9E1428E7B200C4D9A8 /* AUIAnimatedTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55DA51428E7B200C4D9A8 /* AUIAnimatedTextTests.h */,
+				EEF55DA71428E7B200C4D9A8 /* AUIAnimatedTextTests.m */,
+				EEF55D9F1428E7B200C4D9A8 /* Supporting Files */,
+			);
+			path = AUIAnimatedTextTests;
+			sourceTree = "<group>";
+		};
+		EEF55D9F1428E7B200C4D9A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF55DA01428E7B200C4D9A8 /* AUIAnimatedTextTests-Info.plist */,
+				EEF55DA11428E7B200C4D9A8 /* InfoPlist.strings */,
+				EEF55DA41428E7B200C4D9A8 /* AUIAnimatedTextTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF55D6E1428E7B100C4D9A8 /* AUIAnimatedText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF55DAB1428E7B200C4D9A8 /* Build configuration list for PBXNativeTarget "AUIAnimatedText" */;
+			buildPhases = (
+				EEF55D6B1428E7B100C4D9A8 /* Sources */,
+				EEF55D6C1428E7B100C4D9A8 /* Frameworks */,
+				EEF55D6D1428E7B100C4D9A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUIAnimatedText;
+			productName = AUIAnimatedText;
+			productReference = EEF55D6F1428E7B100C4D9A8 /* AUIAnimatedText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF55D971428E7B200C4D9A8 /* AUIAnimatedTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF55DAE1428E7B200C4D9A8 /* Build configuration list for PBXNativeTarget "AUIAnimatedTextTests" */;
+			buildPhases = (
+				EEF55D931428E7B200C4D9A8 /* Sources */,
+				EEF55D941428E7B200C4D9A8 /* Frameworks */,
+				EEF55D951428E7B200C4D9A8 /* Resources */,
+				EEF55D961428E7B200C4D9A8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF55D9D1428E7B200C4D9A8 /* PBXTargetDependency */,
+			);
+			name = AUIAnimatedTextTests;
+			productName = AUIAnimatedTextTests;
+			productReference = EEF55D981428E7B200C4D9A8 /* AUIAnimatedTextTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF55D661428E7B100C4D9A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Any.do;
+			};
+			buildConfigurationList = EEF55D691428E7B100C4D9A8 /* Build configuration list for PBXProject "AUIAnimatedText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEF55D641428E7B100C4D9A8;
+			productRefGroup = EEF55D701428E7B100C4D9A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF55D6E1428E7B100C4D9A8 /* AUIAnimatedText */,
+				EEF55D971428E7B200C4D9A8 /* AUIAnimatedTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF55D6D1428E7B100C4D9A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF55D7E1428E7B100C4D9A8 /* InfoPlist.strings in Resources */,
+				EEF55D8B1428E7B200C4D9A8 /* MainWindow_iPhone.xib in Resources */,
+				EEF55D921428E7B200C4D9A8 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF55D951428E7B200C4D9A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF55DA31428E7B200C4D9A8 /* InfoPlist.strings in Resources */,
+				EEF55DA61428E7B200C4D9A8 /* AUIAnimatedTextTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EEF55D961428E7B200C4D9A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF55D6B1428E7B100C4D9A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF55D811428E7B100C4D9A8 /* main.m in Sources */,
+				EEF55D841428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate.m in Sources */,
+				EEF55D881428E7B100C4D9A8 /* AUIAnimatedTextAppDelegate_iPhone.m in Sources */,
+				EEF55D8F1428E7B200C4D9A8 /* AUIAnimatedTextAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF55D931428E7B200C4D9A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF55DA81428E7B200C4D9A8 /* AUIAnimatedTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEF55D9D1428E7B200C4D9A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF55D6E1428E7B100C4D9A8 /* AUIAnimatedText */;
+			targetProxy = EEF55D9C1428E7B200C4D9A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEF55D7C1428E7B100C4D9A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF55D7D1428E7B100C4D9A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEF55D891428E7B200C4D9A8 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF55D8A1428E7B200C4D9A8 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EEF55D901428E7B200C4D9A8 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF55D911428E7B200C4D9A8 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		EEF55DA11428E7B200C4D9A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF55DA21428E7B200C4D9A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF55DA91428E7B200C4D9A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF55DAA1428E7B200C4D9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEF55DAC1428E7B200C4D9A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIAnimatedText/AUIAnimatedText-Prefix.pch";
+				INFOPLIST_FILE = "AUIAnimatedText/AUIAnimatedText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEF55DAD1428E7B200C4D9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIAnimatedText/AUIAnimatedText-Prefix.pch";
+				INFOPLIST_FILE = "AUIAnimatedText/AUIAnimatedText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EEF55DAF1428E7B200C4D9A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUIAnimatedText.app/AUIAnimatedText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIAnimatedTextTests/AUIAnimatedTextTests-Prefix.pch";
+				INFOPLIST_FILE = "AUIAnimatedTextTests/AUIAnimatedTextTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EEF55DB01428E7B200C4D9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUIAnimatedText.app/AUIAnimatedText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIAnimatedTextTests/AUIAnimatedTextTests-Prefix.pch";
+				INFOPLIST_FILE = "AUIAnimatedTextTests/AUIAnimatedTextTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF55D691428E7B100C4D9A8 /* Build configuration list for PBXProject "AUIAnimatedText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF55DA91428E7B200C4D9A8 /* Debug */,
+				EEF55DAA1428E7B200C4D9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF55DAB1428E7B200C4D9A8 /* Build configuration list for PBXNativeTarget "AUIAnimatedText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF55DAC1428E7B200C4D9A8 /* Debug */,
+				EEF55DAD1428E7B200C4D9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEF55DAE1428E7B200C4D9A8 /* Build configuration list for PBXNativeTarget "AUIAnimatedTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF55DAF1428E7B200C4D9A8 /* Debug */,
+				EEF55DB01428E7B200C4D9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF55D661428E7B100C4D9A8 /* Project object */;
+}
